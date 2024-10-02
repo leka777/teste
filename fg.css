@@ -1,0 +1,118 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Espaçamento padrão entre linhas */
+}
+
+/* Navegação */
+header {
+    background: #fca402; /* Cor de fundo da navegação */
+    color: #f7f30a; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+}
+
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin-right: 15px; /* Espaço entre os itens */
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Seção Inicial */
+#inicial {
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Seção Projetos */
+#projetos {
+    background-color: #f7f30a; /* Cor de fundo */
+    padding: 20px;
+    margin: 20px 0; /* Margens superior e inferior */
+}
+
+.projetos-container {
+    display: flex; /* Usar flexbox para os projetos */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+}
+
+.projeto {
+    margin: 10px; /* Margem entre projetos */
+    border: 1px solid #f7f30a; /* Borda ao redor dos projetos */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    background: #f7f30a; /* Cor de fundo do projeto */
+    flex: 1 1 200px; /* Flexibilidade de tamanho */
+}
+
+.projeto img {
+    max-width: 100%; /* Imagem ocupa 100% da largura do projeto */
+    border-radius: 5px; /* Bordas arredondadas na imagem */
+}
+
+/* Seção Sobre Mim */
+#sobre {
+    background-color: #f7f30a; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+.sobre-container {
+    display: flex; /* Usar flexbox para alinhar imagem e texto */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.perfil-img {
+    width: 150px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Para imagem em forma de círculo */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.sobre-texto {
+    max-width: 600px; /* Largura máxima do texto */
+}
+
+.sobre-texto p {
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin: 10px 0; /* Margem entre parágrafos */
+}
+
+/* Seção de Contato */
+#contato {
+    background-color: #f7f30a; /* Cor de fundo */
+    padding: 20px;
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+.contato-container {
+    display: flex; /* Usar flexbox para os itens de contato */
+    flex-direction: column; /* Coluna para os itens */
+}
+
+.contato-item {
+    margin-bottom: 15px; /* Margem inferior entre os itens */
+}
+
+.contato-item h3 {
+    margin: 0; /* Remove margem superior */
+}
+
+/* Rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    background-color: #f3860a; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+}
